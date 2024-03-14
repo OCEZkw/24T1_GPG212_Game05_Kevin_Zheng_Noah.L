@@ -11,13 +11,7 @@ public class WordManager : MonoBehaviour
 
     public WordSpawner wordSpawner;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        AddWord();
-        AddWord();
-        AddWord();
-    }
+
 
     // Update is called once per frame
     void Update()

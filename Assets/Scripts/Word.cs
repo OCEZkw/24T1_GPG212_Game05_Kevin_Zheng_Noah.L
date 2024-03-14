@@ -28,6 +28,7 @@ public class Word
     {
         typeIndex++;
         // Remove the letter on screen
+        display.RemoveLetter();
     }
 
     public bool WordTyped()
@@ -35,7 +36,7 @@ public class Word
         bool wordTyped = (typeIndex >= word.Length);
         if(wordTyped)
         {
-
+            display.RemoveWord();
         }
         return wordTyped;
     }
